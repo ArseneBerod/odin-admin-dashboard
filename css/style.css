@@ -19,7 +19,7 @@ nav {
 	background-color: #1992d4;
 	color: white;
 	padding: 1.5rem 4rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 nav .title{
@@ -155,7 +155,6 @@ main {
 }
 
 .projects-section > .content{
-	/* flex: 1; */
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(47ch, 1fr));
 	gap: 1rem;
@@ -167,7 +166,6 @@ main {
 	border-radius: 20px;
 	padding: 2rem;
 	box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.4);
-	font-size: 1.25rem;
 	display: flex;
 	flex-direction: column;
 }
@@ -186,7 +184,7 @@ main {
 
 .project-card .title {
 	font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 .project-card .content {
@@ -211,7 +209,7 @@ main .announcements-section {
 
 .announcements-section > .title {
 	font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 .announcements-section > .content {
@@ -227,12 +225,11 @@ main .announcements-section {
 
 .announcement-item .title {
 	font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 .announcement-item .content {
 	color: #636363;
-	font-size: 1.25rem;
 }
 
 main .trending-section {
@@ -245,7 +242,7 @@ main .trending-section {
 
 .trending-section > .title {
 	font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 .trending-section > .content {
@@ -257,13 +254,12 @@ main .trending-section {
 	padding: 2rem;
 	border-radius: 20px;
 	box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.4);
-	gap: 3rem;
+	gap: 1.5rem;
 }
 
 .trending-item {
 	display: flex;
 	align-items: center;
-	font-size: 1.25rem;
 	gap: 1rem;
 }
 
